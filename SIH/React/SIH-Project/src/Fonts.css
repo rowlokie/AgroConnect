@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'karla-regular';
+    src: url('fonts\karla.regular.ttf') format('truetype');
+    
+  }
+
+  @font-face {
+    font-family: 'HeadingNow';
+    src: url('fonts\HeadingNowTrial-56Bold.ttf') format('truetype');
+    
+  }
+  
+  @font-face {
+    font-family: 'Helvetica';
+    src: url('fonts\HelveticaNowDisplay-Black.ttf') format('truetype');
+    
+  }

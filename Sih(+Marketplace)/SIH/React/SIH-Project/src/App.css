@@ -1,0 +1,22 @@
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: 'HeadingNow';
+  src: url('fonts\HeadingNowTrial-56Bold.ttf') format('truetype');
+  
+}
+@font-face {
+  font-family: 'karla-regular';
+  src: url('fonts\karla.regular.ttf') format('truetype');
+  
+}
+body{
+  font-family: 'karla-regular';
+}
+h1,h1,h3,h4,h5{
+  font-family: 'HeadingNow';
+}
+

@@ -1,0 +1,132 @@
+@font-face {
+    font-family: RobotoBold;
+    src: url(fonts\RobotoSlab-Bold.ttf);
+  }
+@font-face {
+    font-family: RobotoRegular;
+    src: url(fonts\RobotoSlab-Regular.ttf);
+  }
+
+@font-face{
+    font-family: BalooRegular;
+    src: url(fonts\BalooBhai2-Regular.ttf);
+}
+@font-face{
+    font-family: BalooThin;
+    src: url(fonts\BalooBhai2[wght].ttf);
+}
+@font-face{
+    font-family: RobotoThin;
+    src: url(fonts\RobotoSlab-Thin.ttf);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(46, 45, 54);
+   
+}
+
+
+
+
+.upperFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.links1{
+    display: inline-block;
+    font-family: RobotoRegular;
+    font-size: 15px;
+}
+.links2{
+    display: inline-block;
+    
+    font-size: 15px;
+    font-family: RobotoThin;
+
+}
+li{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    color: rgba(255,255,255,0.7);
+    
+}
+
+
+h4{
+    color: white;
+}
+li:hover{
+    color: white;
+    text-shadow: 5px;
+    font-weight: 1.1rem;
+    
+    
+}
+h4:hover{
+    text-decoration: none;
+}
+.list{
+    transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.list:hover{
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.6); 
+    transform: scale(1.05) rotateX(5deg) rotateY(5deg);
+}
+.logo{
+    display:inline-block;
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
+
+
+.SocialMedia{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    gap: 30px;
+    cursor: pointer;
+    
+
+
+}
+.icon{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    /* box-shadow: ; */
+
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+    transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon:hover{
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.6); 
+    transform: scale(1.05) rotateX(5deg) rotateY(5deg);
+}
+.lowerFooter{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    
+    background-color: rgb(27, 27, 29);
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: RobotoThin;
+    font-size: 15px;
+
+}

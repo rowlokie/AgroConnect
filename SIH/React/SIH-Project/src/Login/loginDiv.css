@@ -1,0 +1,119 @@
+
+.LoginDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    margin-bottom: -50px;
+    /* font-family: RobotoRegular; */
+    margin-top: -75px;
+    transform: scale(0.88);
+}
+.login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+    transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.login-container:hover{
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.6);
+  
+}
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+.login-btn {
+    background-color: #007bff;
+    /* background-color: green; */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+.login-btn:hover {
+    background-color: #0056b3;
+}
+.stay-signed-in {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+.stay-signed-in input {
+    margin-right: 10px;
+}
+.forgot-password {
+    margin-top: 10px;
+    display: block;
+    color: #007bff;
+    /* color: #287428; */
+    text-decoration: none;
+    font-size: 14px;
+}
+.forgot-password:hover {
+    text-decoration: underline;
+}
+.terms-text {
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px;
+    text-align: left;
+}
+.terms-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+.terms-text a:hover {
+    text-decoration: underline;
+}
+
+.signup-text{
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px;
+    text-align: left;
+}
+.signup-text a {
+    color: #007bff;
+    text-decoration: none;
+    /* color: #003b00; */
+}
+.signup-text a:hover {
+    text-decoration: underline;
+}
+
+.signup-in-login{
+    display: grid;
+    grid-template-columns: auto;
+}

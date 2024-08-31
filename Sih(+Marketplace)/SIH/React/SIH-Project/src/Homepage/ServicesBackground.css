@@ -1,0 +1,51 @@
+#ServicesBackground{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    
+    padding-top: 40px;
+    background-color: white;
+    padding-bottom: 140px;
+}
+#ServicesBackground-Service-divs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+#ServicesBackground-title{
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 1306px){
+    #ServicesBackground-Service-divs{
+        margin-left: 150px;
+        margin-right: 150px;
+
+    }
+
+}
+@media (max-width: 1209px){
+    #ServicesBackground-Service-divs{
+        margin-left: 100px;
+        margin-right: 100px;
+
+    }
+
+}
+@media (max-width: 877px){
+    #ServicesBackground-Service-divs{
+        margin-left: 75px;
+        margin-right: 75px;
+
+    }
+
+}
